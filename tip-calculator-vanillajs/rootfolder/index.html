@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="logo_div">
+      <img class="logo" src="logo.svg" alt="SPLITTER logo" />
+    </div>
+    <div class="main_cont">
+      <div class="left_cont">
+        <div class="bill_div">
+          <p class="bill">Bill Cost</p>
+          <img class="dollar_symbol" src="icon-dollar.svg" alt="USD symbol" />
+          <input
+            class="cost_input"
+            type="number"
+            placeholder="0"
+            min="0"
+            onblur="getCost()"
+          />
+        </div>
+        <div class="tip_div">
+          <p class="tip_percentage">Select Tip %</p>
+          <div class="grid_cont" class="grid1">
+            <div class="tip_choice" class="choice1">2%</div>
+            <div class="tip_choice" class="choice2">5%</div>
+            <div class="tip_choice" class="choice3">10%</div>
+          </div>
+          <div class="grid_cont">
+            <div class="tip_choice" class="choice4">15%</div>
+            <div class="tip_choice" class="choice5">20%</div>
+            <input
+              class="tip_choice"
+              type="number"
+              id="choice6"
+              placeholder=" Custom"
+              min="0"
+              max="100"
+              onblur="customTipFunc()"
+            />
+          </div>
+        </div>
+        <div class="people_num_div">
+          <p class="bill">Number of People</p>
+          <img
+            class="dollar_symbol"
+            src="icon-person.svg"
+            alt="symbol of person"
+          />
+          <input
+            id="people_input"
+            class="cost_input"
+            type="number"
+            placeholder="4"
+            min="1"
+            onblur="getPpl()"
+          />
+        </div>
+      </div>
+      <div class="right_cont">
+        <div class="tip_amount_pp_cont">
+          <p>Tip Amount</p>
+          <p class="person">/ person</p>
+          <div id="tippp_result">$0.00</div>
+        </div>
+        <div class="tip_amount_pp_cont">
+          <p>Total</p>
+          <p class="person">/ person</p>
+          <div id="totalpp_result">$0.00</div>
+        </div>
+        <div class="reset_div">
+          <button class="reset" type="reset" onclick="resetValues()">
+            RESET
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
