@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>OpenWeather App</title>
+  </head>
+  <body class="loading">
+    <div class="weather loading"></div>
+    <div class="header">
+      <div class="headContainer font">
+        <button class="searchButton" onclick="weather.search()">
+          <img
+            class="searchBtn"
+            src="search.jpg"
+            alt="Magnifying glass as search button"
+          />
+        </button>
+        <input class="cityInput" type="text" placeholder="LONDON" />
+      </div>
+    </div>
+    <h1 class="font city mainDescrip">LONDON</h1>
+    <h1 class="mainDescrip description font">SUNNY</h1>
+    <img
+      class="icon"
+      src="https://openweathermap.org/img/wn/04d@4x.png"
+      alt="weather icon"
+    />
+    <div class="card">
+      <div class="weatherDeets font">
+        <p class="temp">20°</p>
+        <div class="details">
+          <p class="detailsHead">DETAILS:</p>
+          <div class="feelsLike flexRow">
+            <p>FEELS LIKE(°C)</p>
+            <p class="feelsLikeValue">5</p>
+          </div>
+          <div class="humidity flexRow">
+            <p>HUMIDITY(%)</p>
+            <p class="humidityValue">15</p>
+          </div>
+          <div class="wind flexRow">
+            <p>WIND(KM/HR)</p>
+            <p class="windValue">25</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hr1" />
+    <h2 class="weekday font h2">WEEKDAY</h2>
+    <hr />
+    <h2 class="timeBlock font h2">TIME BLOCK</h2>
+    <script src="script.js"></script>
+  </body>
+</html>
