@@ -1,0 +1,145 @@
+#backgroundimg {   
+    position: absolute;
+    width: 100.7vw;
+    margin-left: -8px;
+    z-index: -1;
+}
+#background {
+    height: 1000px;
+    width: 100vw;
+    background-color: #dee7f5;
+    margin-left: -8px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: -2;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#basebox {
+    width: auto;
+    height: 540px;
+    background-color: whitesmoke;
+    margin-left: 35.8vw;
+    margin-right: 35.8vw;
+    margin-top: 73px;
+    box-shadow: 0px 20px 10px 2px #dadae9;
+    border-radius: 15px;
+    position: absolute;
+}
+#bannerImage {
+    width: 348px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.mainText {
+    text-align: center;
+}
+#header1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #172744ee;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+}
+#text1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 250px;
+    margin-left: 14%;
+    color: #6b7699;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+}
+
+#greyboxPlan {
+    width: 260px;
+    height: 75px;
+    position: absolute;
+    z-index: 100;
+    background-color: #d6dbf548;
+    margin-left: 39.1%;
+    margin-top: 400px;
+    border-radius: 9px;
+}
+#musicIcon {
+    margin-top: 417px;
+    margin-left: 40.6%;
+    position: absolute;
+    z-index: 101;
+    width: 40px;
+}
+.annualPlanText {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #172744ee;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 421px;
+    position: absolute;
+    margin-left: 44.5%;
+    z-index: 102;
+}
+#annualPlan {                                   /* text: "%49.99/year") */
+    font-weight: 700;
+    margin-top: 440.5px;
+    color: #6b7699e1;
+    font-size: 11.5px;
+}
+.changeButton {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 430px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    margin-left: 54.8%;
+    position: absolute;
+    z-index: 103;
+    text-decoration: underline;
+    color: #4700b8e1;
+}
+.changeButton:hover {
+    color: #4700b87c;
+    text-decoration: none;
+}
+
+#proceedToPayment {
+    border: none;
+    background-color: #401ddafb;
+    margin-top: 500px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    margin-left: 39.1%;
+    position: absolute;
+    color: whitesmoke;
+    letter-spacing: 0px;
+    width: 260px;
+    height: 35px;
+    border-radius: 7px;
+    box-shadow: 0px 13px 20px -3px #c7bfda;
+}
+#proceedToPayment:hover {
+    background-color: #401ddaab;
+    text-decoration: none;
+}
+
+#cancelOrder {
+    margin-top: 559px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    margin-left: 46.2%;
+    position: absolute;
+    text-decoration: none;
+    color: #0000008e;
+}
+#cancelOrder:hover {
+    color: #000000; 
+    text-decoration: underline;
+}

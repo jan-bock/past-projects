@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- excuse the mass use of ids as opposed to classes -->
+<!-- excuse the mass use of ids as opposed to classes -->
+<!-- excuse the mass use of ids as opposed to classes -->
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderSummaryPageHTML+CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="background">
+        <div>
+            <img id="backgroundimg" src="pattern-background-desktop.svg" alt="background image - wave of blue"> <!-- excuse the mass use of ids as opposed to classes -->
+        </div>
+    </div>
+    <div>
+        <div id="basebox">
+            <img id="bannerImage" src="illustration-hero.svg" alt="banner image; person vibing to music">
+            <br> <br>
+            <h1 class="mainText" id="header1">Order Summary</h1>
+            <p class="mainText" id="text1">Listen to your favourite tunes wherever you are and whenever you like! Fancy
+                a podcast, or an audiobook? Got them too.</p>
+        </div>
+    </div>
+    <div>
+        <div id="greyboxPlan"></div>
+        <img id="musicIcon" src="icon-music.svg" alt="music icon">
+        <h1 class="annualPlanText">Annual Plan</h1>
+        <p class="annualPlanText" id="annualPlan">£49.99/year</p>
+        <button class="changeButton">Change</button>
+    </div>
+    <div>
+        <button id="proceedToPayment">Proceed to Payment</button>
+        <button id="cancelOrder" class="changeButton">Cancel Order</button>
+    </div>
+</body>
+
+</html>
