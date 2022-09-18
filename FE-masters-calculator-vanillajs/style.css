@@ -1,0 +1,151 @@
+body {
+    overflow-y: hidden;
+}
+
+.mainframe_background {
+    width: 248px;
+    height: 365px; /* 372px (-5px) for a slightly smaller screen at the top */
+    background-color: black;   
+    margin: auto;
+    margin-top: 7%;
+    position: relative;
+    overflow-x: hidden;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: black;
+}
+.calc_result {
+    height: 25px;
+    width: 200px;
+    background-color: black;
+    padding-top: 25px;
+    float: right;
+    text-align: end;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+
+/* .task_info {
+    font-family: monospace;
+    font-size: 1.5em;
+    margin-top: -26%;
+    text-align: center; 
+} */
+.row_buttons {
+    width: 248px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.general_button {
+    width: 60px;
+    height: auto;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.button1 {
+    width: 122.5px;
+    border-radius: 3px;
+}
+
+.row1 {
+margin-top: 57px;
+}
+.row2 {
+    margin-top: 119px;
+}
+.row3 {
+    margin-top: 181px;
+}
+.row4 {
+    margin-top: 243px;
+}
+.row5 {
+    margin-top: 305px;
+}
+
+.big_button {
+    width: 185px;
+    padding-right: 2px;
+    border-radius: 3px;
+    border-bottom-left-radius: none;
+}
+.button_grey {
+    background-color: #ffffffe1;
+    border-color: #ffffffe1;
+    border-style: none;
+}
+.button_grey:hover {
+    background-color: #fffffff8;
+    animation-delay: 5ms;
+}
+.button_grey:active {
+    background-color: #ffffffcb;
+    animation-delay: 5ms;
+}
+.button_orange {
+    background-color: #ff9a28e1;
+    border-color: #ffffffe1;
+    border-style: none;
+}
+.button_orange:hover {
+    background-color: #ffb056e1;
+    animation-delay: 5ms;
+}
+.button_orange:active {
+    background-color: #ffffffe1;
+    animation-delay: 5ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* See https://codepen.io/denic/pen/GRoOxbM for typing effect */
+.wrapper {
+    height: 0vh;
+    margin-top: 0%;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 60ch;
+    margin-top: 5%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
