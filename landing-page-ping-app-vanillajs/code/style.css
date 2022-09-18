@@ -1,0 +1,113 @@
+html {
+  background-color:#f8fafc3f;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1.5vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #A5A5A5;
+  letter-spacing: 0px;
+}
+.description {
+  margin-top: -10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #313131;
+}
+
+.logo {
+  margin-top: 6.5vh;
+}
+.logo_Image {
+  display: block;
+  margin: auto;
+  width: 65px;
+  height: auto;
+}
+
+.input_Div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1vh;
+}
+.email_Input {
+  border-radius: 25px;
+  height: 37px;
+  width: 275px;
+  font-size: 11px;
+  border-color: #54698f2c;
+  border-width: 1px;
+  border-style:solid;
+  text-align: center;
+  background-color:#f8fafc3f;
+}
+::placeholder {
+  color: #54698f4f;
+}
+.notify_Button {
+  border-radius: 25px;
+  height: 37px;
+  width: 100px;
+  font-size: 10px;
+  margin-left: 8px;
+  border-style:solid;
+  border-width: 1px;
+  border-color: #3846FB;
+  background-color: #3846FB;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 3px 7px 2px #3845fb4b;
+}
+.notify_Button:hover {
+  background-color: #3845fb44;
+  font-weight: 900;
+  border-color: #f8fafc3f;
+}
+
+.dash_Img {
+width: 40vw;
+height: auto;
+display: block;
+margin: auto;
+margin-top: 5vh;
+}
+
+.button_Div {
+  display: flex;
+  width: 120px;
+  margin: auto;
+  margin-top: 7vh;
+}
+.buttons {
+  width: 25px;
+  background-color: #f8fafc3f;
+  margin: auto;
+}
+.buttons:hover {
+  opacity: 35%;
+}
+
+.buttontag {
+  border-style: none;
+  background-color: #f8fafc3f;
+}
+.copyright {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -0.5vh;
+  font-family: 'Open Sans', sans-serif;
+}

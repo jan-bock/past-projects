@@ -1,0 +1,165 @@
+html {
+  overflow-x: hidden;
+}
+
+header {
+  max-width: 100%;
+  height: 6vh;
+  margin-top: -2vh;
+}
+.wrapper {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+h1 {
+  font-family: "Changa One", cursive;
+  font-size: 32px;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  margin-top: 4vh;
+  color: #fcc2b4;
+}
+.headerOptions {
+  list-style: none;
+  display: flex;
+  column-gap: 2vw;
+  float: right;
+  margin-top: -6.5vh;
+  margin-right: 4vw;
+  font-family: "Barlow", cursive;
+  font-size: 13px;
+  opacity: 90%;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #000000c5;
+}
+.cart {
+  margin-left: 2.2vw;
+}
+hr {
+  size: 0.1px;
+  opacity: 30%;
+  width: 115%;
+  margin-left: -10%;
+}
+
+.shippingPanel {
+  height: 4.5vh;
+  background-color: #dcbeab41;
+  width: 115%;
+  margin-top: -2vh;
+  margin-left: -10%;
+  font-size: 12px;
+  line-height: 25px;
+  font-family: "Barlow", cursive;
+}
+.panelText {
+  margin-left: 10%;
+  padding-top: 0.4vh;
+  opacity: 90%;
+  font-weight: 500;
+  color: #000000c5;
+}
+
+.container {
+  width: 55vw;
+  height: 50vh;
+  display: flexbox;
+  margin: auto;
+  text-align: center;
+  margin-top: 13vh;
+}
+
+h2 {
+  font-family: "Purple Purse", cursive;
+  font-size: 35px;
+  color: #5f5e5c;
+  font-weight: 400;
+}
+.descrip {
+  width: 28vw;
+  text-align: center;
+  margin: auto;
+  font-family: "Barlow", cursive;
+  font-size: 13.5px;
+  line-height: 23px;
+  margin-top: -4vh;
+}
+.semiBanner {
+  max-width: 100%;
+  padding-top: 4vh;
+  background-color: none;
+  font-family: "Barlow", cursive;
+}
+.shippingText {
+  max-width: 100%;
+  height: 5vh;
+  background-color: #dcbeab41;
+  font-size: 13.5px;
+}
+.textShip {
+  padding-top: 1vh;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.faqSection {
+  width: 55vw;
+  margin: auto;
+  margin-top: -25vh;
+}
+#q1 {
+  display: none;
+}
+#q2 {
+  display: none;
+}
+#q3 {
+  display: none;
+}
+#q4 {
+  display: none;
+}
+#q5 {
+  display: none;
+}
+#q6 {
+  display: none;
+}
+.content {
+  opacity: 75%;
+  font-family: "Barlow", cursive;
+  font-size: 12px;
+  margin-left: 1.7vw;
+  line-height: 20px;
+}
+
+.collapsible {
+  display: block;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+  background-color: white;
+  line-height: 35px;
+  font-family: "Barlow", cursive;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 1.5vh;
+  cursor: pointer;
+}
+.type2hr {
+  margin: auto;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+strong {
+  color: #303030;
+}

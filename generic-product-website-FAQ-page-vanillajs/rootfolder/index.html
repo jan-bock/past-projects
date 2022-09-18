@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&family=Limelight&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FAQ Delivery Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1>en route</h1>
+      </div>
+      <div class="headerOptions">
+        <li><a href="Search Box PopUp Here">Search</a></li>
+        <li><a href="Takes you to my Account page">My Account</a></li>
+        <li class="cart"><a href="Takes you to my basket and check out page">Cart: £0.00</a></li>
+      </div>
+    </header>
+    <hr />
+    <div class="shippingPanel">
+      <p class="panelText">
+        Free international shipping for all order over $25 🚚
+      </p>
+    </div>
+    <div class="container">
+      <div class="faqHeaderContainer">
+        <h2>FAQ</h2>
+        <p class="descrip">
+          These are the most frequently asked question that we get! If you have
+          any questions, please 👉 <a href="" class="link">contact us</a> 👈
+        </p>
+      </div>
+      <div class="semiBanner">
+        <div class="shippingText">
+          <p class="textShip">
+            Shipping has changed for international order due to the current
+            pandemic situation. Please read 👉 <a
+              href="https://personal.help.royalmail.com/app/answers/detail/a_id/5317/~/international-incident-bulletin"
+              class="link"
+              >here</a
+            > 👈
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="faqSection">
+      <button type="button" class="collapsible" id="button1" onclick="toggleText1()">Q: Where do you ship?</button>
+      <hr class="type2hr" />
+      <div class="content" id="q1">
+        <p><em>en route</em> is based in the UK, and currently offers worldwide shipping, guaranteed within a week. International packages may incur a fee at certain customs. <br><br><em>en route</em> is not liable or responsible for lost or stolen packages. We endeavour to give you all shipping information available to us by couriers, but we cannot be held responsible if an order shows confirmation delivery to the correct address. <strong>Our products do not include duty free or tax in the prices listed. It's important to be aware that tax and duty may be charged on top of the purchase price advertised on this website.</strong></p>
+      </div>
+
+      <button type="button" class="collapsible" onclick="toggleText2()">Q: Can I cancel my order?</button>
+      <hr class="type2hr" />
+      <div class="content" id="q2">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button type="button" class="collapsible" onclick="toggleText3()">Q: How can I track my order?</button>
+      <hr class="type2hr" />
+      <div class="content" id="q3">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button type="button" class="collapsible" onclick="toggleText4()">Q: Why Can't I see any shipping updates or information when I track my order?</button>
+      <hr class="type2hr" />
+      <div class="content" id="q4">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button type="button" class="collapsible" onclick="toggleText5()">Q: Do you accept exchanges or returns?</button>
+      <hr class="type2hr" />
+      <div class="content" id="q5">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button type="button" class="collapsible" onclick="toggleText6()">Q: How can I get in contact with <em>en route</em></button>
+      <hr class="type2hr" />
+      <div class="content" id="q6">
+        <p>Lorem ipsum...</p>
+      </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
