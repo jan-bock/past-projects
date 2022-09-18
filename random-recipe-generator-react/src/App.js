@@ -8,19 +8,19 @@ const randomHello = () => {
 
   switch (randomNum) {
     case 1:
-      welcomeText = "WHY DON'T YOU EAT SOME F*ING";
+      welcomeText = "WHY DON'T YOU EAT SOME";
       break;
     case 2:
-      welcomeText = "TRY NOT TO F* UP SOME";
+      welcomeText = "TRY NOT TO MESS UP SOME";
       break;
     case 3:
-      welcomeText = "YOU F*ING BURNT IT LAST TIME... TRY NOT TO BURN SOME";
+      welcomeText = "YOU BURNT IT LAST TIME... TRY NOT TO BURN SOME";
       break;
     case 4:
-      welcomeText = "AREN'T YOU GETTING F*ING TIRED OF THIS... TRY SOME";
+      welcomeText = "AREN'T YOU GETTING TIRED OF THIS... TRY SOME";
       break;
     case 5:
-      welcomeText = "WHY DONT YOU GIVE THIS A F*ING TRY:";
+      welcomeText = "WHY DONT YOU GIVE THIS A TRY:";
       break;
   }
 };
